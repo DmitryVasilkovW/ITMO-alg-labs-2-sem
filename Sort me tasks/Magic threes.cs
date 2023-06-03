@@ -11,7 +11,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine()); // чтение входных данных
+        int n = int.Parse(Console.ReadLine()); 
 
         int count = 0;
         for (int a = 1; a <= n; a++)
@@ -28,6 +28,6 @@ public class Program
             }
         }
 
-        Console.WriteLine(count); // вывод результата
+        Console.WriteLine(count);
     }
 }
